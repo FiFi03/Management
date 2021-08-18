@@ -1,4 +1,4 @@
-package com.company.entity;
+package entity;
 
 public class Product {
     private int id;
