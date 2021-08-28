@@ -14,7 +14,7 @@ public class UserServiceImpl implements UserService {
         this.users = new ArrayList<User>();
     }
 
-    public UserServiceImpl (List<User> users) {
+    public UserServiceImpl(List<User> users) {
         this.users = users;
     }
 
@@ -27,7 +27,7 @@ public class UserServiceImpl implements UserService {
     }
 
     public void removeUserById(Long userId) {
-        for(int i=0; i<users.size(); i++) {
+        for(int i=0;i<users.size();i++){
             User userFromList = users.get(i);
             if (userFromList.getId() == userId) {
                 users.remove(i);
